@@ -22,8 +22,11 @@ const generatePassword = () => {
   passwordEl2.textContent = str2;
 }
 
+window.generatePassword = generatePassword
+
 const getRandomCharacter = () => {
     let random = Math.floor(Math.random() * characters.length)
         return randomCharacter = characters[random];
 }
 
+window.getRandomCharacter = getRandomCharacter;
