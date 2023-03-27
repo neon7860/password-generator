@@ -26,7 +26,8 @@ window.generatePassword = generatePassword
 
 const getRandomCharacter = () => {
     let random = Math.floor(Math.random() * characters.length)
-        return randomCharacter = characters[random];
+        let randomCharacter = characters[random];
+        return randomCharacter;
 }
 
 window.getRandomCharacter = getRandomCharacter;
